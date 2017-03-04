@@ -6,7 +6,12 @@
 //  Copyright © 2016 Glazed Donut, LLC. All rights reserved.
 //
 
-import UIKit
+#if os(iOS)
+    import UIKit
+#else
+    import AppKit
+#endif
+
 
 extension NSAttributedString {
 
