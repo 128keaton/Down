@@ -31,8 +31,8 @@ extension NSAttributedString {
 
         
         let options: [String: Any] = [
-            NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType,
-            NSCharacterEncodingDocumentAttribute: NSNumber(value: String.Encoding.utf8.rawValue)
+            NSAttributedString.DocumentAttributeKey.documentType.rawValue: NSAttributedString.DocumentType.html,
+            NSAttributedString.DocumentAttributeKey.characterEncoding.rawValue: NSNumber(value: String.Encoding.utf8.rawValue)
         ]
         try self.init(data: data, options: options, documentAttributes: nil)
     }
