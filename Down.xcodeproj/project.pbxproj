@@ -128,6 +128,7 @@
 
 /* Begin PBXFileReference section */
 		8A569F401E6B3E50008BE2AC /* Down.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Down.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE9D5262013144B00D5C2AD /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		8AFAEAFB1E6E32E900E09B68 /* DownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		907C64621EC120530095FEE1 /* TestDownView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TestDownView.bundle; sourceTree = "<group>"; };
 		90A40A951EC02FF6004F2E91 /* Down-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Down-Info.plist"; sourceTree = "<group>"; };
@@ -243,6 +244,7 @@
 				D41689B41CFFE6BB00E5802B /* Resources */,
 				D4201EC41CFA59A5008EEC6E /* Tests */,
 				D4201E811CFA5151008EEC6E /* Products */,
+				8AE9D5262013144B00D5C2AD /* Package.swift */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
